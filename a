@@ -1,0 +1,26 @@
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+     ${Endereço}/${path = caminho de identificação do recurso}
+
+Request Method: GET | POST | PUT | DELETE
+
+Query String: ?type=gras&name=1 
+
+Request Header: configuração da nossa requisição.
+
+dependendo do metodo que eu estou usando, temos o body
+
+Request Headers
+    content-type: application/json
+
+Request Body 
+{
+    "name": "Teste"
+}
+
+Status Code: 200 OK
+
+Response Hedears
+
+Response Body
